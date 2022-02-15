@@ -1,0 +1,25 @@
+/*
+* Company: Barco
+* Date: 15-Feb-2022
+* Round: 1st
+*/
+1. Inline function - Uses, advantages, disadvantages
+2. Can virtual function be inlined?
+3. Static_cast, Dynamic_cast, Const_cast
+4. Object slicing
+5. Static_pointer_cast
+6. RTTI
+7. Copy elision? How it works internally?
+8. lvalue vs rvalue
+9. lvalue reference vs rvalue reference
+10.Pimpl Idiom
+11.Copy ctor private?
+12.Non-copyable object are also non-movable?
+13.Self assignment check? usage?
+14.Casting unique_ptr to shared_ptr? Yes
+15.Casting shared_ptr to unique_ptr? No
+16.Enabled_shared_from_this in c++11?
+17.Unique_gaurd vs lock_gaurd vs scoped_gaurd?
+18.Join, double join?
+19.Detach, double detach?
+20.Static_pointer_cast?
