@@ -1,8 +1,8 @@
 /*
-* Company: Barco
-* Date: 15-Feb-2022
-* Round: 1st
-*/
+ * Company: Barco
+ * Date: 15-Feb-2022
+ * Round: 1st
+ */
 1. Inline function - Uses, advantages, disadvantages
 2. Can virtual function be inlined?
 3. Static_cast, Dynamic_cast, Const_cast
@@ -23,3 +23,20 @@
 18.Join, double join?
 19.Detach, double detach?
 20.Static_pointer_cast?
+
+/*
+ * Company: Barco
+ * Date: 16-Feb-2022
+ * Round: 2nd
+ */
+1. QT/QML experience
+2. Socket programming - TCP/UDP server-client process steps
+3. If client gets disconnected from server (machine crash on client side). How server will be notified?
+4. How multiple client will be handled? (what we will do after Accept call)
+5. Producer/Consumer problem
+6. Copy ctor (int *p, char *p = "abc")
+7. unordered_map vs map
+8. Design patterns
+9. SOLID principles
+
+
