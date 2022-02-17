@@ -22,6 +22,11 @@ class Derived: private Empty
 	int i;
 };
 
+class Derived2: public Empty
+{
+	int i;
+};
+
 class Composed
 {
 	int i;
@@ -46,6 +51,7 @@ int main()
 {
 	cout<<"Size of Empty: "<<sizeof(Empty)<<endl;
 	cout<<"Size of Derived: "<<sizeof(Derived)<<endl;
+	cout<<"Size of Derived2: "<<sizeof(Derived2)<<endl;
 	cout<<"Size of Composed: "<<sizeof(Composed)<<endl;
 
 	//Base* bPtr = new Derived_2();

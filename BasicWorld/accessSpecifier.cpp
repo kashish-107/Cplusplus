@@ -24,6 +24,7 @@ protected:
 
 class derived : public test
 {
+	int a1;
 public:
 	void show() { 
 		k = 15;
@@ -38,8 +39,8 @@ int main()
 
 	derived d;
 
-	cout<<sizeof(t)<<endl;	
-	cout<<sizeof(d)<<endl;	
+	cout<<"Size of base "<<sizeof(t)<<endl;	
+	cout<<"Size of derived "<<sizeof(d)<<endl;	
 		
 	cout<<d.i<<endl;
 	d.show();
