@@ -23,9 +23,19 @@ public:
 
 	test& operator= (const test& obj) {
 		cout<<"Assignment operator"<<endl;
-		if(!_ip) 
-			_ip = new int(0);
-		*_ip = *(obj._ip);
+		if(&obj != this) { 
+			if(_ip == nullptr) 
+				_ip = new int(*obj._ip);
+			else	
+				*_ip = *(obj._ip);
+
+			if(_cp == nullptr) _cp = new char[strlen(obj._cp)+1];
+			else if(strlen(_cp) != strlen(obj._cp)) {
+				delete[] _cp;
+				_cp = new char[strlen(obj._cp)+1];
+			}
+			strcpy(_cp, obj._cp);
+		}
 		return *this;
 	}
 
