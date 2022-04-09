@@ -11,6 +11,7 @@ named variable, for either of the following reasons:
 
 #include<iostream>
 #include<algorithm>
+#include<vector>
 using namespace std;
 
 class buffer
@@ -114,7 +115,7 @@ public:
 	auto func() && {  }
 };
 	auto a = foo{};
-	a.func(); // Does not compile, 'a' is not an r-value
+	//a.func(); // Does not compile, 'a' is not an r-value
 
 auto  make_buffer() 
 {
